@@ -1,0 +1,15 @@
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.textHidden {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.iconfont {
+  font-size: 0.5rem;
+}
